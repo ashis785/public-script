@@ -78,19 +78,19 @@ end
 
 if MN == 4 then
 
-NoRecoil ()
+nore ()
 
 end
 
 if MN == 5 then 
 
-LessRecoil ()
+less ()
 
 end
 
 if MN == 6 then
 
-WideView ()
+ipad ()
 
 end
 
@@ -277,7 +277,7 @@ end
 
 
 
-function aimlockbot ()
+function aimbot ()
 
 so = gg.getRangesList("libUE4.so")[1].start
 
@@ -303,7 +303,7 @@ gg.toast ("AIMBOT BY MODXPRO ✓")
 
 end
 
-function NoRecoil ()
+function nore ()
 
 gg.setRanges(gg.REGION_C_HEAP | gg.REGION_C_DATA | gg.REGION_PPSSPP)
 
@@ -351,7 +351,7 @@ gg.toast ("NO RECOIL MODXPRO ✓")
 
 end
 
-function LessRecoil ()
+function less ()
 
 so = gg.getRangesList("libUE4.so")[1].start
 
@@ -363,7 +363,7 @@ gg.toast ("LESS RECOIL BY MODXPRO ✓")
 
 end
 
-function WideView ()
+function ipad ()
 
    so=gg.getRangesList('libUE4.so')[1].start
 
