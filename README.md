@@ -115,142 +115,70 @@ function bypass ()
 
 gg.alert ("🦸 ALERT 🦸 \n JOIN Telegram @MODXPRO")
 
-gg.clearResults()
-
-gg.setVisible(false)
-
 gg.setRanges(gg.REGION_C_ALLOC)
-
-gg.searchNumber("2D;2.2958874e-41;16384D;16384D::13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
-
-gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-
-revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-
-local t = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-
-for i, v in ipairs(t) do
-
-if v.flags == gg.TYPE_DWORD then
-
-v.value = "2.2958874039497803E-41"
-
-v.freeze = true
-
-end                                     
-
-end                                     
-
-gg.addListItems(t)
-
-t = nil
-
-gg.clearResults()
-
-gg.clearList()
-
-gg.clearResults()
-
-gg.setVisible(false)
-
-gg.setRanges(gg.REGION_C_ALLOC)
-
-gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
-
-revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-
-local t = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-
-for i, v in ipairs(t) do
-
-if v.flags == gg.TYPE_DWORD then
-
-v.value = "67109633"
-
-v.freeze = true
-
-end                                     
-
-end                                     
-
-gg.addListItems(t)
-
-t = nil
-
-gg.clearResults()
-
-gg.setVisible(false)
-
-gg.setRanges(gg.REGION_C_ALLOC)
-
-gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
-
-revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-
-local t = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-
-for i, v in ipairs(t) do
-
-if v.flags == gg.TYPE_DWORD then
-
-v.value = "67109633"
-
-v.freeze = true
-
-end                                     
-
-end                                     
-
-gg.addListItems(t)
-
-t = nil
-
-gg.clearResults()
-
-gg.setVisible(false)
-
-gg.setRanges(gg.REGION_C_ALLOC)
-
-gg.searchNumber("133,378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
-
-revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-
-local t = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-
-for i, v in ipairs(t) do
-
-if v.flags == gg.TYPE_DWORD then
-
-v.value = "67109633"
-
-v.freeze = true
-
-end                                     
-
-end                                     
-
-gg.addListItems(t)
-
-t = nil
-
-gg.clearResults()
-
-gg.setVisible(false)
-
-gg.setRanges(gg.REGION_C_ALLOC)
-
-gg.searchNumber("70658~590336;67109377;67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-
-gg.refineNumber("70658~590336", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
-
-gg.getResults(99999)
-
+gg.searchNumber("196,864~590336;67109377;67109633;67109633", gg.TYPE_DWORD)
+gg.refineNumber("196,864~590336", gg.TYPE_DWORD)
+gg.getResults(50500)
 gg.editAll("67109633", gg.TYPE_DWORD)
-
 gg.clearResults()
-
-gg.clearList()
-
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("65,795~590336;67109377;67109633;67109633", gg.TYPE_DWORD)
+gg.refineNumber("65,795~590336", gg.TYPE_DWORD)
+gg.getResults(50500)
+gg.editAll("67109633", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(600000)
+gg.editAll("67109633", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("9.21956299e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(600000)
+gg.editAll("67109633", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("135682;1443879", gg.TYPE_DWORD)
+gg.refineNumber("135682", gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll("67109633", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("134914;131330", gg.TYPE_DWORD)
+gg.refineNumber("134914", gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll("67109633", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("131586;131842", gg.TYPE_DWORD)
+gg.refineNumber("131586", gg.TYPE_DWORD)
+gg.getResults(50500)
+gg.editAll("67109633", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("131842;132098", gg.TYPE_DWORD)
+gg.refineNumber("131842", gg.TYPE_DWORD)
+gg.getResults(50500)
+gg.editAll("67109633", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("137989;334345;65538", gg.TYPE_DWORD)
+gg.refineNumber("137989", gg.TYPE_DWORD)
+gg.getResults(50500)
+gg.editAll("67109633", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("331149;331144;196865", gg.TYPE_DWORD)
+gg.refineNumber("331149", gg.TYPE_DWORD)
+gg.getResults(50500)
+gg.editAll("67109633", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("132098;133635", gg.TYPE_DWORD)
+gg.refineNumber("132098", gg.TYPE_DWORD)
+gg.getResults(50500)
+gg.editAll("67109633", gg.TYPE_DWORD)
+gg.clearResults()
 gg.alert ("MODXPRO BYPASS ACTIVATED✅")
 
 end
