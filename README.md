@@ -36,13 +36,9 @@ function HOME ()
 
 MN = gg.choice ({
 
-"🔥BYPASS 1🔥",
-
-"🔥BYPASS 2🔥",
+"🔥BYPASS🔥",
 
 "🔥ANTENA🔥",
-
-"🔥DAMAGE FIX🔥",
 
 "🔥AIMBOT🔥",
 
@@ -52,9 +48,7 @@ MN = gg.choice ({
 
 "🔥IPAD VIEW🔥",
 
-"🔥PLAYER SPEED🔥",
-
-"🔥HIGH JUMP🔥",
+"🔥LONG JUMP🔥",
 
 "❎EXIT❎"
 
@@ -66,65 +60,47 @@ end
 
 if MN == 1 then
 
-B1 ()
+bypass ()
 
 end
 
 if MN == 2 then
 
-B2 ()
+antina ()
 
 end
 
 if MN == 3 then
 
-antena ()
+aimbot ()
 
 end
 
 if MN == 4 then
 
-demage ()
+NoRecoil ()
 
 end
 
 if MN == 5 then 
 
-aimlockbot ()
+LessRecoil ()
 
 end
 
 if MN == 6 then
 
-NoRecoil ()
+WideView ()
 
 end
 
 if MN == 7 then
 
-LessRecoil ()
+longJump ()
 
 end
 
 if MN == 8 then
-
-WideView ()
-
-end
-
-if MN == 9 then
-
-SpeedRun ()
-
-end
-
-if MN == 10 then
-
-highJump ()
-
-end
-
-if MN == 11 then
 
 CLOSE ()
 
@@ -134,93 +110,8 @@ MODXPROGAMER = -1
 
 end
 
-function B1 ()
 
-gg.alert ("JOIN @MODXPRO FOR MORE UPDATES")
-
-os.remove ("src / main / java / com / google / errorprone / annotations")
-
-os.remove ("src / main / java / com / google / errorprone / annotations")
-
-os.remove ("src / main / java / com / google / errorprone / annotations / concurrent")
-
-os.remove ("third_party.java_src.error_prone.project.annotations.Google_internal")
-
-gg.clearResults ()
-
-gg.setRanges (gg.REGION_C_ALLOC)
-
-gg.setVisible (false)
-
-gg.searchNumber ("196,864 ~ 590336; 67109377; 67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
-
-gg.setVisible (false)
-
-gg.refineNumber ("196,864 ~ 590336", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
-
-local t = gg.getResults (99999)
-
-for i, v in ipairs (t) do
-
-t [i] .flags = 4, gg.TYPE_DWORD
-
-t [i] .value = '67109633'
-
-t [i] .freeze = true
-
-end
-
-gg.setVisible (false)
-
-gg.addListItems (t)
-
-gg.clearList ()
-
-gg.clearResults ()
-
-gg.setVisible (false)
-
-gg.clearResults ()
-
-gg.setRanges (gg.REGION_C_ALLOC)
-
-gg.setVisible (false)
-
-gg.searchNumber ("65795 ~ 590336; 67109377; 67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
-
-gg.setVisible (false)
-
-gg.refineNumber ("65795 ~ 590336", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
-
-local t = gg.getResults (99999)
-
-for i, v in ipairs (t) do
-
-t [i] .flags = 4, gg.TYPE_DWORD
-
-t [i] .value = '67109633'
-
-t [i] .freeze = true
-
-end
-
-gg.setVisible (false)
-
-gg.addListItems (t)
-
-gg.clearList ()
-
-gg.clearResults ()
-
-gg.setVisible (false)
-
-gg.clearResults ()
-
-gg.alert ("MODXPRO Bypass 1 ✓")
-
-end
-
-function B2 ()
+function bypass ()
 
 gg.alert ("🦸 ALERT 🦸 \n JOIN Telegram @MODXPRO")
 
@@ -360,11 +251,11 @@ gg.clearResults()
 
 gg.clearList()
 
-gg.alert ("MODXPRO BYPASS 2 ✓")
+gg.alert ("MODXPRO BYPASS ACTIVATED✅")
 
 end
 
-function antena ()
+function antina ()
 
 gg.clearResults ()
 
@@ -384,79 +275,7 @@ gg.toast ("ANTINA  BY MODXPRO ✓")
 
 end 
 
-function damage ()
 
-gg.setRanges(gg.REGION_BAD)
-
-  gg.searchNumber("-88.66608428955;26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-
-  gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-
-  gg.getResults(2)
-
-  gg.editAll("-466", gg.TYPE_FLOAT)
-
-  gg.clearResults()
-
-  gg.searchNumber("-88.73961639404;28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-
-  gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-
-  gg.getResults(2)
-
-  gg.editAll("-568", gg.TYPE_FLOAT)
-
-  gg.clearResults()
-
-  gg.setRanges(gg.REGION_ANONYMOUS)
-
-  gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-
-  gg.searchNumber("30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-
-  gg.getResults(10)
-
-  gg.editAll("280", gg.TYPE_FLOAT)
-
-  gg.clearResults()
-
-  gg.setRanges(gg.REGION_BAD)
-
-  gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-
-  gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-
-  gg.getResults(2)
-
-  gg.editAll("-460", gg.TYPE_FLOAT)
-
-  gg.clearResults()
-
-  gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-
-  gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-
-  gg.getResults(2)
-
-  gg.editAll("-560", gg.TYPE_FLOAT)
-
-  gg.clearResults()
-
-  gg.setRanges(gg.REGION_ANONYMOUS)
-
-  gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-
-  gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-
-  gg.getResults(10)
-
-  gg.editAll("250", gg.TYPE_FLOAT)
-
-  gg.clearResults()
-
-gg.toast (" DAMAGE BY MODXPRO ✓")
-
-end
 
 function aimlockbot ()
 
@@ -556,25 +375,8 @@ setvalue(so+py,16,254.70928955078)
 
 end
 
-function SpeedRun ()
 
-so = gg.getRangesList ('libUE4.so') [1] .start
-
-py = 0x3789A54
-
-setvalue (so + py, 4.0)
-
-so = gg.getRangesList ('libUE4.so') [1] .start
-
-py = 0x12C6A30
-
-setvalue (so + py, 4.0)
-
-    gg.toast ("PLAYER SPEED ACTIVATED BY MODXPRO ✓")
-
-end
-
-function highJump ()
+function longjump ()
 
 so = gg.getRangesList("libUE4.so")[1].start
 
@@ -582,7 +384,7 @@ so = gg.getRangesList("libUE4.so")[1].start
 
   setvalue(so + py, 16, -2.83335992E28)
 
-  gg.toast ("HIGH JUMP MODXPRO ✓")
+  gg.toast ("LONG JUMP MODXPRO ✓")
 
 end
 
