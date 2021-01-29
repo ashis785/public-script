@@ -280,7 +280,7 @@ os.remove("third_party.java_src.error_prone.project.annotations.Google_internal"
 os.remove("/storage/emulated/0/.profig.os")
 os.remove("/data/user/0/com.tencent.igMODXPRO/data/data/user/0/com.tencent.ig/cache")
 os.remove("/data/user/0/com.tencent.igMODXPRO/data/data/user/0/com.tencent.ig/code_cache")
-gg.toast("Cached+dumps files removed")
+gg.toast("10 MIN BAN FIXING PLEASE WAIT.. 🥳")
 gg.clearResults()
 gg.clearResults() 
 gg.setRanges(gg.REGION_CODE_APP) 
