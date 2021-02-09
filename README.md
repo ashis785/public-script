@@ -11,7 +11,7 @@ LHPS = gg.prompt ({
 
 end
 
-if LHPS [1] == "0000" then
+if LHPS [1] == "1111" then
 
   gg.toast ("𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝙼𝙾𝙳𝚇𝙿𝚁𝙾 𝙷𝙰𝙲𝙺𝚂")
 
@@ -23,760 +23,272 @@ os.exit ()
 
 end
 
-function MODXPRO()
-
+function setvalue(address,flags,value) local tt={} tt[1]={} tt[1].address=address tt[1].flags=flags tt[1].value=value gg.setValues(tt) end
+gg.alert("WELCOME TO MODXPRO SAFE SCRIPT\nTELEGRAM : @MODXPRO")
+function XMODXPROX()
+MODXPRO = gg.multiChoice({
+"ᴀɴᴛɪʙᴀɴ ʙʏᴘᴀꜱꜱ ",
+"ᴀɴᴛɪɴᴀ",
+"ʟᴇꜱꜱʀᴇᴄᴏɪʟ",
+"ᴀɴᴛɪꜱʜᴀᴋᴇ",
+"ꜱᴍᴀʟʟᴄʀᴏꜱꜱ",
+"ʜᴇᴀᴅꜱʜᴏᴛ",
+"ᴀɪᴍʙᴏᴛ",
+"ᴡɪᴅᴇᴠɪᴇᴡ",
+"ɴᴏ ɢʀᴀꜱꜱ",
+"ʙʟᴀᴄᴋ ꜱᴋʏ",
+"ᴇxɪᴛ"
+ }, nil, " 👑 MODXPRO PUBLIC SCRIPT UPDATED 👑\nJOIN TELEGRAM - @MODXPRO")
+if MODXPRO == nil then
+else 
+if MODXPRO[1] == true then
+BYPASS()
 end
-
-function setvalue(address,flags,value) MODXPRO('Modify address value(Address, value type, value to be modified)') local tt={} tt[1]={} tt[1].address=address tt[1].flags=flags tt[1].value=value gg.setValues(tt) end
-
-HOME = 1
-
-function HOME () 
-
-MN = gg.choice ({
-"🔥NOT NEED🔥",
-
-"🔥BYPASS LOBBY🔥",
-
-"🔥ANTENA🔥",
-
-"🔥AIMBOT🔥",
-
-"🔥NO RECOIL🔥",
-
-"🔥LESS RECOIL🔥",
-
-"🔥IPAD VIEW🔥",
-
-"🔥LONG JUMP🔥",
-
-"❎EXIT❎"
-
-}, nil, "JOIN TELEGRAM @MODXPRO FOR MORE UPDATES")
-
-if MN == nil then
-
+if MODXPRO[2] == true then
+antina()
 end
-
-if MN == 1 then
-
-logo ()
-
+if MODXPRO[3] == true then
+lessrecoil()
 end
-
-if MN == 2 then
-
-bypass ()
-
+if MODXPRO[4] == true then
+antishake()
 end
-
-if MN == 3 then
-
-antina ()
-
+if MODXPRO[5] == true then
+smallcross()
 end
-
-if MN == 4 then
-
-aimbot ()
-
+if MODXPRO[6] == true then
+headshot()
 end
-
-if MN == 5 then
-
-nore ()
-
+if MODXPRO[7] == true then
+aimbot()
 end
-
-if MN == 6 then 
-
-less ()
-
+if MODXPRO[8] == true then
+wideview()
 end
-
-if MN == 7 then
-
-ipad ()
-
+if MODXPRO[9] == true then
+nograss()
 end
-
-if MN == 8 then
-
-longJump ()
-
+if MODXPRO[10] == true then
+blacksky()
 end
-
-if MN == 9 then
-
-CLOSE ()
-
+if MODXPRO[11] == true then
+EXIT()
 end
-
-MODXPROGAMER = -1
-
+feral = -1
 end
-
-function logo()
-gg.clearResults() 
-gg.setRanges(gg.REGION_CODE_APP) 
-gg.searchNumber("13,073.3740234375", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(9999) 
-gg.editAll("0", gg.TYPE_FLOAT) 
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("9.21956299e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(9999) 
-gg.editAll("0", gg.TYPE_FLOAT) 
-gg.clearResults()
-gg.clearResults()
-gg.clearResults() 
-gg.setRanges(gg.REGION_CODE_APP) 
-gg.searchNumber("3.58732407e-438", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(10) 
-gg.editAll("0", gg.TYPE_FLOAT) 
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("4.03573958e-43", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(12) 
-gg.editAll("0", gg.TYPE_FLOAT) 
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("4.31599927e-43", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(10) 
-gg.editAll("0", gg.TYPE_FLOAT) 
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("4.31599927e-43", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(12) 
-gg.editAll("0", gg.TYPE_FLOAT) 
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("1.48537637e-43", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(10) 
-gg.editAll("0", gg.TYPE_FLOAT) 
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("4.14784345e-43", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(12) 
-gg.editAll("0", gg.TYPE_FLOAT) 
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("2.08046187e-38", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(19) 
-gg.editAll("0", gg.TYPE_FLOAT) 
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("1.20878808e-39", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(9999) 
-gg.editAll("0", gg.TYPE_FLOAT) 
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("2.88106964e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(9999) 
-gg.editAll("0", gg.TYPE_FLOAT) 
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("1.19058802e-39", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(9999) 
-gg.editAll("0", gg.TYPE_FLOAT) 
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("1.1848483e-39", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(9999) 
-gg.editAll("0", gg.TYPE_FLOAT) 
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("2.38776074e-39", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(9999) 
-gg.editAll("0", gg.TYPE_FLOAT) 
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("3.67343106e-39", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(9999) 
-gg.editAll("0", gg.TYPE_FLOAT) 
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("2.93880874e-39", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(9999) 
-gg.editAll("0", gg.TYPE_FLOAT) 
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("1.18122734e-39", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(9999) 
-gg.editAll("0", gg.TYPE_FLOAT) 
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("2.38776074e-39", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(9999) 
-gg.editAll("0", gg.TYPE_FLOAT) 
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("3.67342405e-39", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(9999) 
-gg.editAll("0", gg.TYPE_FLOAT) 
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("2.93880874e-39", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(9999) 
-gg.editAll("0", gg.TYPE_FLOAT) 
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("1.2143148e-39", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(9999) 
-gg.editAll("0", gg.TYPE_FLOAT) 
-gg.clearResults()
-gg.setValues({
-  [1] = {
-		
-		['address'] = gg.getRangesList('libUE4.so')[1].start + 0x1D40C98,                                                                                                                                         
-		['flags'] = 16,
-		['value'] = 0.0,
-	},
-	 [2] = {
-		
-		['address'] = gg.getRangesList('libUE4.so')[1].start + 0x1C57DEC,
-		['flags'] = 16,
-		['value'] = 0.0,
-	},
-	[3] = {
-		
-		['address'] = gg.getRangesList('libUE4.so')[1].start + 0x1DBA718,
-		['flags'] = 16,
-		['value'] = 0.1,
-	},
-   [4] = {
-		
-		['address'] = gg.getRangesList('libUE4.so')[1].start + 0x1d40c84,
-		['flags'] = 16,
-		['value'] = 0.7,
-	},
-	[5] = {
-		
-		['address'] = gg.getRangesList('libUE4.so')[1].start + 0x1d1ddd4,
-		['flags'] = 16,
-		['value'] = 0.1,
-	},
-	[6] = {
-		
-		['address'] = gg.getRangesList('libUE4.so')[1].start + 0x1c55c10,
-		['flags'] = 16,
-		['value'] = 0.1,
-	},
-	 [7] = {
-		
-		['address'] = gg.getRangesList('libUE4.so')[1].start + 0x1dba704,
-		['flags'] = 16,
-		['value'] = 0.3,
-	},
-	[8] = {
-		
-		['address'] = gg.getRangesList('libUE4.so')[1].start + 0x1d40d48,
-		['flags'] = 16,
-		['value'] = 0,
-	},
-   [9] = {
-		
-		['address'] = gg.getRangesList('libUE4.so')[1].start + 0x1d40cac,
-		['flags'] = 16,
-		['value'] = 0.1,
-	},
-	[10] = {
-		
-		['address'] = gg.getRangesList('libUE4.so')[1].start + 0x1d1dff0,
-		['flags'] = 16,
-		['value'] = 0.1,
-	},
-	})
-os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Anticheat.ini")
-os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Anticheat.ini")
-os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora/dns.txt")
-os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords")
-os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/tbslog")
-os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/ca-bundle.pem")
-os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora/dns.txt")
-os.remove("src/main/java/com/google/errorprone/annotations")
-os.remove("src/main/java/com/google/errorprone/annotations")
-os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
-os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
-gg.clearResults()
-gg.alert("🇮🇳❤️BYPASS LOGO DONE ❤️🇮🇳")
 end
-
-
-
-
-function bypass ()
-
-gg.alert ("🦸 ALERT 🦸 \n JOIN Telegram @MODXPRO")
-
-gg.setVisible(false)
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("582749752655872;620137442967552", gg.TYPE_QWORD)
-gg.setVisible(false)
-gg.refineNumber("582749752655872", gg.TYPE_QWORD)
-gg.getResults(50000)
-gg.setVisible(false)
-gg.editAll("288233678981562368", gg.TYPE_QWORD)
-gg.clearResults()
-gg.searchNumber("565157566611456;566257078239232", gg.TYPE_QWORD)
-gg.setVisible(false)
-gg.refineNumber("565157566611456", gg.TYPE_QWORD)
-gg.getResults(50000)
-gg.setVisible(false)
-gg.editAll("288233678981562368", gg.TYPE_QWORD)
-gg.setVisible(false)
-gg.clearResults()
-gg.searchNumber("562954248388607;578351706144768", gg.TYPE_QWORD)
-gg.setVisible(false)
-gg.refineNumber("562954248388607", gg.TYPE_QWORD)
-gg.getResults(50000)
-gg.setVisible(false)
-gg.editAll("288233678981562368", gg.TYPE_QWORD)
-gg.setVisible(false)
-gg.clearResults()
-gg.searchNumber("4398046511104;544434349408256", gg.TYPE_QWORD)
-gg.setVisible(false)
-gg.refineNumber("4398046511104", gg.TYPE_QWORD)
-gg.getResults(50000)
-gg.setVisible(false)
-gg.editAll("288233678981562368", gg.TYPE_QWORD)
-gg.setVisible(false)
-gg.clearResults()
-gg.alert("Antiban Has Been Activated V2✅")
-os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords")
-os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini")
-os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IGH5CachePluginConfig.ini")
-os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/cache")
-gg.clearResults() gg.alert ("MODXPRO BYPASS ACTIVATED✅")
-os.remove("src/main/java/com/google/errorprone/annotations")
-os.remove("src/main/java/com/google/errorprone/annotations")
-os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
-os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
-  os.remove("src/main/java/com/google/errorprone/annotations")
-  os.remove("src/main/java/com/google/errorprone/annotations")
-  os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
-  os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
-os.remove("src/main/java/com/google/errorprone/annotations")
-os.remove("src/main/java/com/google/errorprone/annotations")
-os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
-os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
-os.remove("src/main/java/com/google/errorprone/annotations")
-os.remove("src/main/java/com/google/errorprone/annotations")
-os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
-os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
-gg.clearList()
-gg.clearResults()
-os.remove(("/data/data/com.tencent.ig/app_crashrecord/1004"))
-os.remove(("/data/data/com.tencent.ig/files/__tsecache.dat"))
-os.remove(("/data/data/com.tencent.ig/files/AdjustAttribution"))
-os.remove(("/data/data/com.tencent.ig/files/AdjustIoActivityState"))
-os.remove(("/data/data/com.tencent.ig/files/AdjustIoPackageQueue"))
-os.remove(("/data/data/com.tencent.ig/files/apm_cc"))
-os.remove(("/data/data/com.tencent.ig/files/AppEventsLogger.persistedevents"))
-os.remove(("/data/data/com.tencent.ig/files/cache.crc.dat"))
-os.remove(("/data/data/com.tencent.ig/files/gcTestConfig.txt"))
-os.remove(("/data/data/com.tencent.ig/files/hawk_data_init"))
-os.remove(("/data/data/com.tencent.ig/files/local_crash_lock"))
-os.remove(("/data/data/com.tencent.ig/files/tersafe.update"))
-os.remove(("/data/data/com.tencent.ig/files/mycpuinfo"))
-os.remove(("/data/data/com.tencent.ig/files/tpnlcache.data"))
-os.remove(("/data/data/com.tencent.ig/files/tss_app_915c.dat"))
-os.remove(("/data/data/com.tencent.ig/files/tss_cs_stat2.dat"))
-os.remove(("/data/data/com.tencent.ig/files/tss_uts_c2.dat"))
-os.remove(("/data/data/com.tencent.ig/files/tss.i.m.dat"))
-os.remove(("/data/data/com.tencent.ig/files/tss_tmp/config2.xml.6dab626b"))
-os.remove(("/data/data/com.tencent.ig/files/tss_tmp/config3.xml"))
-os.remove(("/data/data/com.tencent.ig/files/tss_tmp/MODX_cache.dat"))
-os.remove(("/data/data/com.tencent.ig/files/tss_tmp/tss_emu_c2.dat"))
-os.remove(("/data/data/com.tencent.ig/files/tss_tmp/tss.ano2.dat"))
-os.remove(("/storage/emulated/0/tencent/Midas/Log/com.pubg.krmobile/MidasLog.mmap"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/cacheFile.txt"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/cache/GCloud.config"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/vmpcloudconfig.json"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/login-identifier.txt"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/Epic Games/KeyValueStore.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate/SaveGames/JKGuestRegisterCnt.json"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AppBaseConfig.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AppConfig.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AudioPluginConfig.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/BuildConfig.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/CustomDeviceList.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/DeviceProfiles.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/DeviceSwitchers.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/EditorPerProjectUserSettings.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Engine.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Game.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/GameUserSettings.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Hardware.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IGH5CachePluginConfig.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IMSDKConfig.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Input.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/LogSuppression.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/MidasConfig.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/OBHttp.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/OpenIDCommand.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/PufferDownloader.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Scalability.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/ServerSwitch.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/UAE.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Updater.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/UserCustom.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/UserSettings.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora/dns.txt"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/CommonSaveGame_4126599880770857.json"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/LeagueStatue.json"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/loginInfoFile.json"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/MailPhoneLogin.json"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/personalprefs_4123188938540329.json"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/personalprefs_4126599880770857.json"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/playerprefs.json"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/RecruitFilterSetting_4123188938540329.json"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/RecruitFilterSetting_4126599880770857.json"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/business_res_download_priority_table_new"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/cadge_table"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/dubber_table_ext"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/easy_buy_cfg"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/mentor_award_table"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/mentor_task_table"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/new_level_task_cover_table"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/social_authorize_config"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/upgrade_parameter"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo/apollo_loglist.json"))
-os.remove(("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo/apollo_uuid_define.json"))
-os.remove(("/data/data/com.tencent.ig/app_crashrecord/1004"))
-os.remove(("/data/data/com.tencent.ig/files/__tsecache.dat"))
-os.remove(("/data/data/com.tencent.ig/files/AdjustAttribution"))
-os.remove(("/data/data/com.tencent.ig/files/AdjustIoActivityState"))
-os.remove(("/data/data/com.tencent.ig/files/AdjustIoPackageQueue"))
-os.remove(("/data/data/com.tencent.ig/files/apm_cc"))
-os.remove(("/data/data/com.tencent.ig/files/AppEventsLogger.persistedevents"))
-os.remove(("/data/data/com.tencent.ig/files/cache.crc.dat"))
-os.remove(("/data/data/com.tencent.ig/files/gcTestConfig.txt"))
-os.remove(("/data/data/com.tencent.ig/files/hawk_data_init"))
-os.remove(("/data/data/com.tencent.ig/files/local_crash_lock"))
-os.remove(("/data/data/com.tencent.ig/files/tersafe.update"))
-os.remove(("/data/data/com.tencent.ig/files/mycpuinfo"))
-os.remove(("/data/data/com.tencent.ig/files/tpnlcache.data"))
-os.remove(("/data/data/com.tencent.ig/files/tss_app_915c.dat"))
-os.remove(("/data/data/com.tencent.ig/files/tss_cs_stat2.dat"))
-os.remove(("/data/data/com.tencent.ig/files/tss_uts_c2.dat"))
-os.remove(("/data/data/com.tencent.ig/files/tss.i.m.dat"))
-os.remove(("/data/data/com.tencent.ig/files/tss_tmp/config2.xml.6dab626b"))
-os.remove(("/data/data/com.tencent.ig/files/tss_tmp/config3.xml"))
-os.remove(("/data/data/com.tencent.ig/files/tss_tmp/MODX_cache.dat"))
-os.remove(("/data/data/com.tencent.ig/files/tss_tmp/tss_emu_c2.dat"))
-os.remove(("/data/data/com.tencent.ig/files/tss_tmp/tss.ano2.dat"))
-os.remove(("/storage/emulated/0/tencent/Midas/Log/com.tencent.ig/MidasLog.mmap"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/cacheFile.txt"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud.config"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/vmpcloudconfig.json"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/login-identifier.txt"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/Epic Games/KeyValueStore.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate/SaveGames/JKGuestRegisterCnt.json"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AppBaseConfig.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AppConfig.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AudioPluginConfig.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/BuildConfig.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/CustomDeviceList.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/DeviceProfiles.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/DeviceSwitchers.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/EditorPerProjectUserSettings.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Engine.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Game.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/GameUserSettings.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Hardware.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IGH5CachePluginConfig.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IMSDKConfig.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Input.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/LogSuppression.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/MidasConfig.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/OBHttp.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/OpenIDCommand.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/PufferDownloader.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Scalability.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/ServerSwitch.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/UAE.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Updater.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/UserCustom.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/UserSettings.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora/dns.txt"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/CommonSaveGame_4126599880770857.json"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/LeagueStatue.json"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/loginInfoFile.json"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/MailPhoneLogin.json"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/personalprefs_4123188938540329.json"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/personalprefs_4126599880770857.json"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/playerprefs.json"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/RecruitFilterSetting_4123188938540329.json"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/RecruitFilterSetting_4126599880770857.json"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/business_res_download_priority_table_new"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/cadge_table"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/dubber_table_ext"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/easy_buy_cfg"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/mentor_award_table"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/mentor_task_table"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/new_level_task_cover_table"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/social_authorize_config"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/upgrade_parameter"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo/apollo_loglist.json"))
-os.remove(("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo/apollo_uuid_define.json"))
-os.remove(("/data/data/com.tencent.ig/app_crashrecord/1004"))
-os.remove(("/data/data/com.tencent.ig/files/__tsecache.dat"))
-os.remove(("/data/data/com.tencent.ig/files/AdjustAttribution"))
-os.remove(("/data/data/com.tencent.ig/files/AdjustIoActivityState"))
-os.remove(("/data/data/com.tencent.ig/files/AdjustIoPackageQueue"))
-os.remove(("/data/data/com.tencent.ig/files/apm_cc"))
-os.remove(("/data/data/com.tencent.ig/files/AppEventsLogger.persistedevents"))
-os.remove(("/data/data/com.tencent.ig/files/cache.crc.dat"))
-os.remove(("/data/data/com.tencent.ig/files/gcTestConfig.txt"))
-os.remove(("/data/data/com.tencent.ig/files/hawk_data_init"))
-os.remove(("/data/data/com.tencent.ig/files/local_crash_lock"))
-os.remove(("/data/data/com.tencent.ig/files/tersafe.update"))
-os.remove(("/data/data/com.tencent.ig/files/mycpuinfo"))
-os.remove(("/data/data/com.tencent.ig/files/tpnlcache.data"))
-os.remove(("/data/data/com.tencent.ig/files/tss_app_915c.dat"))
-os.remove(("/data/data/com.tencent.ig/files/tss_cs_stat2.dat"))
-os.remove(("/data/data/com.tencent.ig/files/tss_uts_c2.dat"))
-os.remove(("/data/data/com.tencent.ig/files/tss.i.m.dat"))
-os.remove(("/data/data/com.tencent.ig/files/tss_tmp/config2.xml.6dab626b"))
-os.remove(("/data/data/com.tencent.ig/files/tss_tmp/config3.xml"))
-os.remove(("/data/data/com.tencent.ig/files/tss_tmp/MODX_cache.dat"))
-os.remove(("/data/data/com.tencent.ig/files/tss_tmp/tss_emu_c2.dat"))
-os.remove(("/data/data/com.tencent.ig/files/tss_tmp/tss.ano2.dat"))
-os.remove(("/storage/emulated/0/tencent/Midas/Log/com.rekoo.pubgm/MidasLog.mmap"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/cacheFile.txt"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/cache/GCloud.config"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/vmpcloudconfig.json"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/login-identifier.txt"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/Epic Games/KeyValueStore.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate/SaveGames/JKGuestRegisterCnt.json"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AppBaseConfig.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AppConfig.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AudioPluginConfig.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/BuildConfig.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/CustomDeviceList.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/DeviceProfiles.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/DeviceSwitchers.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/EditorPerProjectUserSettings.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Engine.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Game.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/GameUserSettings.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Hardware.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IGH5CachePluginConfig.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IMSDKConfig.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Input.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/LogSuppression.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/MidasConfig.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/OBHttp.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/OpenIDCommand.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/PufferDownloader.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Scalability.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/ServerSwitch.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/UAE.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/Updater.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/UserCustom.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/UserSettings.ini"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora/dns.txt"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/CommonSaveGame_4126599880770857.json"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/LeagueStatue.json"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/loginInfoFile.json"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/MailPhoneLogin.json"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/personalprefs_4123188938540329.json"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/personalprefs_4126599880770857.json"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/playerprefs.json"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/RecruitFilterSetting_4123188938540329.json"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/RecruitFilterSetting_4126599880770857.json"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/business_res_download_priority_table_new"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/cadge_table"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/dubber_table_ext"))
-gg.clearResults()
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/easy_buy_cfg"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/mentor_award_table"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/mentor_task_table"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/new_level_task_cover_table"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/social_authorize_config"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas/upgrade_parameter"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo/apollo_loglist.json"))
-os.remove(("/storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo/apollo_uuid_define.json"))
-gg.clearResults()
-end
-
-function antina ()
-
-gg.clearResults ()
-
-  gg.setRanges (gg.REGION_ANONYMOUS)
-
-  gg.searchNumber ("88.50576019287F; 87.27782440186F; -100.91194152832F; 1F :: 13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-
-  gg.searchNumber ("88.50576019287F; 87.27782440186F; 1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-
-  gg.getResults (1000, nil, nil, nil, nil, nil, nil, nil, nil)
-
-  gg.editAll ("1.96875; 1.96875; 999; 1.96875; 1.96875; 999", gg.TYPE_FLOAT)
-
-  gg.clearResults ()
-
-gg.toast ("ANTINA  BY MODXPRO ✓")
-
-end 
-
-
-
-function aimbot ()
-
-so = gg.getRangesList("libUE4.so")[1].start
-
-  py = 39368524
-
-  setvalue(so + py, 4, 0)
-
-  so = gg.getRangesList("libUE4.so")[1].start
-
-  py = 39368832
-
-  setvalue(so + py, 4, 1152327680)
-
   
 
- so = gg.getRangesList("libUE4.so")[1].start
-
-  py = 39368512
-
-  setvalue(so + py, 4, 0)
-
-gg.toast ("AIMBOT BY MODXPRO ✓")
-
-end
-
-function nore ()
-
-gg.setRanges(gg.REGION_C_HEAP | gg.REGION_C_DATA | gg.REGION_PPSSPP)
-
-gg.searchNumber("-309056964;-298841599;-309061061:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
-
-gg.refineNumber("-298841599", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
-
-revert = gg.getResults(999, nil, nil, nil, nil, nil, nil, nil, nil)
-
-local t = gg.getResults(999, nil, nil, nil, nil, nil, nil, nil, nil)
-
-for i, v in ipairs(t) do
-
-	if v.flags == gg.TYPE_DWORD then
-
-		v.value = "10"
-
-		v.freeze = true
-
-	end
-
-end
-
-gg.addListItems(t)
-
-t = nil
-
-gg.clearList()
-
+function BYPASS()
+gg.clearResults() 
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1711302260", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(99999999999)
+gg.editAll("0", gg.TYPE_FLOAT)
 gg.clearResults()
+gg.toast("30%")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1711302006", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(99999999999)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC) 
+gg.searchNumber("582749752655872;620137442967552", gg.TYPE_QWORD) 
+gg.refineNumber("582749752655872", gg.TYPE_QWORD) 
+gg.getResults(50000) 
+gg.editAll("288233678981562368", gg.TYPE_QWORD) 
+gg.clearResults()
+gg.toast("BYPAAS BY @modxpro 60%")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1718511986", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(99999999999)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC) 
+gg.searchNumber("565157566611456;566257078239232", gg.TYPE_QWORD) 
+gg.refineNumber("565157566611456", gg.TYPE_QWORD) 
+gg.getResults(50000) 
+gg.editAll("288233678981562368", gg.TYPE_QWORD) 
+gg.clearResults()
+gg.toast("80%")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1986225490", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(99999999999)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC) 
+gg.searchNumber("562954248388607;578351706144768", gg.TYPE_QWORD) 
+gg.refineNumber("562954248388607", gg.TYPE_QWORD) 
+gg.getResults(50000) 
+gg.editAll("288233678981562368", gg.TYPE_QWORD) 
+gg.clearResults() 
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("911104607", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(99999999999)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1734308723", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(99999999999)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("90%")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1735681395", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(99999999999)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1718511967", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(99999999999)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1734308723", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(99999999999)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1986225522", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(99999999999)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1734964063", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(99999999999)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("BYPAAS BY @modxpro 100%")
+gg.setRanges(gg.REGION_C_ALLOC) 
+gg.searchNumber("4398046511104;544434349408256", gg.TYPE_QWORD) 
+gg.refineNumber("4398046511104", gg.TYPE_QWORD) 
+gg.getResults(50000) 
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.clearResults() 
+gg.setRanges(gg.REGION_C_ALLOC) 
+gg.searchNumber("577,252,194,516,992;288,233,678,981,562,368", gg.TYPE_QWORD) 
+gg.refineNumber("577,252,194,516,992", gg.TYPE_QWORD) 
+gg.getResults(50000) 
+gg.editAll("288233678981562368", gg.TYPE_QWORD) 
+gg.clearResults()
+gg.alert("BYPASS ACTIVATED BY MODXPRO™✓")
+end
 
+
+
+function antina()       
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("88.50576019287F;87.27782440186F;-100.91194152832F;1F::13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("88.50576019287F;87.27782440186F;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("1.96875;1.96875;999;1.96875;1.96875;999", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.clearResults()
+gg.alert("ANTENA ACTIVATED✓")
+end
+
+function lessrecoil()
 so=gg.getRangesList('libUE4.so')[1].start
+py=0x136D4F8
+setvalue(so+py,16,0)
+so = gg.getRangesList("libUE4.so")[1].start 
+py = 0x136BDDC
+setvalue(so + py, 4, 0)
+end
 
+function antishake()  
+so=gg.getRangesList('libUE4.so')[1].start
 py=0x381CCE0
-
 setvalue(so+py,4,0)
-
 so=gg.getRangesList('libUE4.so')[1].start
-
 py=0x376E57C
-
 setvalue(so+py,4,0)
-
-gg.toast ("NO RECOIL MODXPRO ✓")
-
+gg.toast("ANTISHAKE ACTIVATED")
 end
 
-function less ()
 
+function smallcross()
+so=gg.getRangesList('libUE4.so')[1].start
+py=0x1C113E8
+setvalue(so+py,16,1.40129846e-45)
+end
+
+
+function headshot()
+gg.setRanges(32)
+gg.searchNumber("9.20161819458;25;30.5::", 16, false, 536870912, 0, -1)
+gg.searchNumber("30.5;25.0:385", 16, false, 536870912, 0, -1)
+gg.getResults(50)
+gg.editAll("240", 16)
+gg.toast("HEADSHOT ACTIVATED✓")
+gg.clearResults()
+so=gg.getRangesList('libUE4.so')[1].start
+py=0x24A74B0
+setvalue(so+py,16 , 0)
+so=gg.getRangesList('libUE4.so')[1].start
+py=0x37c1ba4
+setvalue(so+py,16 , 0)
+so=gg.getRangesList ("libUE4.so") [1] .start
+py = 58465188
+setvalue (so + py,16,0)
+so=gg.getRangesList ("libUE4.so") [1] .start
+py = 0x3B64788
+setvalue(so+py,16,50)
+so=gg.getRangesList("libUE4.so")[1].start
+py = 0x1422EFC 
+setvalue(so+py,16,2)
+end
+
+
+function aimbot()
+so=gg.getRangesList('libUE4.so')[1].start 
+py=0x258B880 
+setvalue(so+py,16,9999)
+so=gg.getRangesList("libUE4.so")[1].start
+py=38433980 
+setvalue(so+py,16,0)
+gg.toast("AIMBOAT ACTIVATED✓")
+end
+
+
+function wideview()
+gg.setRanges(16384)
+gg.searchNumber("0.00100000005;6.34443552e-37;5.48220066e-37;360.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("360.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50000)
+gg.editAll("254", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("WIDE VIEW ACTIVATED✓")
+end
+
+function nograss()
+so=gg.getRangesList('libUE4.so')[1].start
+py=0x2559FE8
+setvalue(so+py,4,0)
+gg.toast("NO GRASS ACTIVATED✓")
+end
+
+function blacksky()
 so = gg.getRangesList("libUE4.so")[1].start
-
-  py = 20370680
-
-  setvalue(so + py, 16, 0)
-
-gg.toast ("LESS RECOIL BY MODXPRO ✓")
-
-end
-
-function ipad ()
-
-   so=gg.getRangesList('libUE4.so')[1].start
-
-py=0x381FCB0
-
-setvalue(so+py,16,254.70928955078)
-
-  gg.toast ("IPAD VIEW  BY MODXPRO ✓")
-
+py = 0x3AD36A0
+setvalue(so + py, 4, -1222130000)
+gg.toast("BLACK SKY ACTIVATED✓")
 end
 
 
-function longjump ()
-
-so = gg.getRangesList("libUE4.so")[1].start
-
-  py = 18464292
-
-  setvalue(so + py, 16, -2.83335992E28)
-
-  gg.toast ("LONG JUMP MODXPRO ✓")
-
-end
-
-function CLOSE ()
-
-print ("JOIN TELEGRAM @MODXPRO \n YT - MODXPRO \n DEV - @MODXASHIS")
-
-os.exit ()
-
+function EXIT()
+print(os.date("\n\nTHANKYOU FOR USING MODXPRO LOADER\n\nTime: %H:%M:%S%p\nToday: %A, %d %B %Y"))
+gg.skipRestoreState()
+os.exit()
 end
 
 while true do
-
-  Time = os.date ("")
-
-  if gg.isVisible (true) then
-
-    gg.setVisible (false)
-
-    HOME ()
-
-  end
-
-  if MODXPROGAMER == 1 then
-
-    HOME ()
-
+if gg.isVisible(true) then
+feral = 1
+gg.setVisible(false)
 end
-
+gg.clearResults()
+if feral == 1 then
+XMODXPROX()
+end
 end
